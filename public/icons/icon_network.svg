@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 16px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1" data-name="Capa 1">
+    <g id="server_network_vpn_vps" data-name="server network vpn vps">
+      <g>
+        <circle class="cls-1" cx="256" cy="464" r="40"/>
+        <line class="cls-1" x1="256" y1="376" x2="256" y2="424"/>
+        <line class="cls-1" x1="296" y1="464" x2="504" y2="464"/>
+        <line class="cls-1" x1="216" y1="464" x2="8" y2="464"/>
+      </g>
+      <g>
+        <path class="cls-1" d="m496,168H16c-4.4,0-8-3.6-8-8V16c0-4.4,3.6-8,8-8h480c4.4,0,8,3.6,8,8v144c0,4.4-3.6,8-8,8Z"/>
+        <path class="cls-1" d="m496,376H16c-4.4,0-8-3.6-8-8v-144c0-4.4,3.6-8,8-8h480c4.4,0,8,3.6,8,8v144c0,4.4-3.6,8-8,8Z"/>
+        <g>
+          <line class="cls-1" x1="56" y1="168" x2="56" y2="216"/>
+          <line class="cls-1" x1="456" y1="168" x2="456" y2="216"/>
+        </g>
+        <g>
+          <line class="cls-1" x1="56" y1="328" x2="56" y2="264"/>
+          <line class="cls-1" x1="88" y1="328" x2="88" y2="264"/>
+          <line class="cls-1" x1="120" y1="328" x2="120" y2="264"/>
+          <line class="cls-1" x1="152" y1="328" x2="152" y2="264"/>
+          <line class="cls-1" x1="360" y1="296" x2="456" y2="296"/>
+        </g>
+        <g>
+          <line class="cls-1" x1="56" y1="120" x2="56" y2="56"/>
+          <line class="cls-1" x1="88" y1="120" x2="88" y2="56"/>
+          <line class="cls-1" x1="120" y1="120" x2="120" y2="56"/>
+          <line class="cls-1" x1="152" y1="120" x2="152" y2="56"/>
+          <line class="cls-1" x1="360" y1="88" x2="456" y2="88"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
