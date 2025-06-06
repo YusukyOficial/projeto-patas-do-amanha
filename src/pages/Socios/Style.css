@@ -1,0 +1,104 @@
+
+
+/* SECTION DO TITULO DA PAGINA SEJA SOCIO*/
+.pts-seja-socio {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #2e8c57;
+    flex-direction: column;
+    font-size: x-large;
+    padding: 50px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-left: 10%;
+  }
+  .pts-container-socio {
+    width: 100%;
+    height: 150%;
+    display: flex;
+  }
+  .pts-section-socio {
+    display: flex;
+    width: 60%;
+    height: auto;
+    justify-content: center;
+  }
+  .pts-section-socio h3 {
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    color: var(--primary-color);
+  }
+  .pts-container h1 {
+    color: var(--primary-color);
+  }
+  .pts-socio {
+    h1 {
+      color: var(--primary-color);
+      text-align: center;
+    }
+  }
+  
+  /* Area formulario */
+  
+  .pts-form {
+    max-width: 700px;
+    margin-left: 30%;
+    background: var(--light-bg);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 2%;
+  }
+  .pts-label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+  } 
+  .pts-input,
+  .pts-select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }  
+  .pts-divPts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pts-btn {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .pts-btn:hover {
+    background-color: #43a047; /* Efeito ao passar o mouse */
+  }
+  
