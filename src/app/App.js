@@ -10,6 +10,7 @@ import Solucoes from "../pages/Solucoes";
 import Painel from "../pages/Painel";
 import Login from "../pages/Login";
 import PrivateRoute from "../components/Auth";
+import Socios from "../pages/Socios";
  
 function App() {
  
@@ -30,7 +31,7 @@ function App() {
               </PrivateRoute>
             } />
             <Route path="/login" element={<Login />} />
- 
+            <Route path="/socios" element={<Socios />} />
           </Routes>
         </main>
         <Footer />
