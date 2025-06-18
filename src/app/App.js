@@ -11,6 +11,7 @@ import Painel from "../pages/Painel";
 import Login from "../pages/Login";
 import PrivateRoute from "../components/Auth";
 import Socios from "../pages/Socios";
+import Vakinha from "../pages/Vakinha";
  
 function App() {
  
@@ -32,6 +33,7 @@ function App() {
             } />
             <Route path="/login" element={<Login />} />
             <Route path="/socios" element={<Socios />} />
+            <Route path="/vakinha" element={<Vakinha />} />
           </Routes>
         </main>
         <Footer />
