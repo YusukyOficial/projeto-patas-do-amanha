@@ -1,0 +1,117 @@
+/*
+ * ===== VARIÁVEIS GLOBAIS =====
+ * Define variáveis CSS reutilizáveis em todo o documento
+ */
+ :root {
+    --primary-color: #2E8B57;                   /* Cor primária (verde escuro) */
+    --secondary-color: #333b36;                 /* Cor secundária (--) */
+    --accent-color: #ff6b6b;                    /* Cor de destaque (rosa/vermelho) */
+    --text-color: #333;                         /* Cor padrão para texto */
+    --light-bg: rgba(247, 248, 239, 0.788);     /* Cor de fundo clara */
+    --dark-bg: #2c3e50;                         /* Cor de fundo escura */
+    --header-height: 100px;                       /* Altura do cabeçalho */
+    --caramel: hsla(30, 53%, 53%, 1);
+    --ivory-2: hsla(69, 76%, 97%, 1);
+    --citron: hsla(63, 40%, 60%, 1);
+}
+
+/* Formato do SITE */
+.Conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    font-size: x-large;
+}
+
+.Sub-conteiner{
+    padding: 3px;
+    flex-direction: column;
+}
+
+/* Titulo Principal */
+.Apadri-Titulo{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--primary-color);
+
+}
+
+/* Texto do SITE */
+.Text{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.frase{
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.frase-sobre{
+    color: var(--primary-color);
+    font-size: medium;
+    padding: 3px;
+    
+}
+
+/* Local da imagem */
+.img {
+    padding: 20%;
+    width: 20%;
+    height: 3px;
+}
+
+/* ===== ESTILOS DO FORMULÁRIO DE CADASTRO ===== */
+.Cadastro {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+.Text-cadastro {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.Cadastro input,
+.Cadastro textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.Cadastro textarea:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(46, 139, 87, 0.2);
+}
+
+.TextArea {
+    min-height: 120px;
+}
+
+/* Frase depois do formulario */
+
+.Frase-questionário {
+    padding: 3px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
