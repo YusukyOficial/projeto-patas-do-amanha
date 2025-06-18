@@ -5,7 +5,7 @@ import './Stylevak.css'; // Importa o arquivo CSS para estilizar o componente
 function Vakinha() {
     // Define o estado 'progresso' com um valor inicial de 20%.
     // 'setProgresso' é a função usada para atualizar este estado.
-    const [progresso, setProgresso] = useState(20); //
+    const [progresso, setProgresso] = useState(10); //
 
     // Define a meta de arrecadação. É uma constante, então não precisa de useState.
     const valorMeta = 60000;
@@ -23,11 +23,10 @@ function Vakinha() {
     const valorArrecadadoAtual = (progresso / 100 * valorMeta).toLocaleString('pt-BR', { minimumFractionDigits: 2 });
 
     // Calcula o número de doadores com base no progresso.
-    // Esta é uma simulação simples, pode ser ajustada.
-    const numeroDoadores = Math.floor(progresso / 10) * 20 + 20;
+    const numeroDoadores = Math.floor(progresso / 10) * 45 + 45;
 
     return (
-        <> {/* Fragmento React para agrupar elementos sem adicionar um nó extra ao DOM */}
+        <> 
             {/* Seção com apelo emocional */}
             <section className="pts-emotional-appeal">
                 <div className="pts-emotional-container">
