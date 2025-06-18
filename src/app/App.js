@@ -33,7 +33,7 @@ function App() {
             } />
             <Route path="/login" element={<Login />} />
             <Route path="/socios" element={<Socios />} />
-            <Route path="/apadrinhamento" element={<Apadrinhamento />} />
+            <Route path="/Apadrinhamento" element={<Apadrinhamento />} />
           </Routes>
         </main>
         <Footer />
