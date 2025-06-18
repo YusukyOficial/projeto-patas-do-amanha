@@ -12,9 +12,7 @@ function Socios() {
         </div>
         <div class="pts-texto">
             <h2>
-                Todos os dias, cães e gatos são resgatados das ruas em busca de uma segunda chance. Com sua ajuda,
-                conseguimos oferecer abrigo, cuidados veterinários, alimentação e muito amor.
-                Ao se tornar um sócio, você faz parte dessa corrente do bem e transforma realidades. Com uma contribuição
+                Com uma contribuição
                 mensal, você garante dignidade e esperança para quem não pode pedir por ajuda.
                 Seja a voz de quem não tem voz.
             </h2>
@@ -23,7 +21,7 @@ function Socios() {
             <div class="pts-socio">
                 <h1>Junte-se ao Time</h1>
                 <h2>É só preencher o formulário que nossos voluntários entrarão em contato com você.</h2>
-                <h2>Como agradecimento você recebe notícias, fotos e vídeos mensais sobre a ONG.</h2>
+                
             </div>
         </section>
         <div class="pts-form">
@@ -33,17 +31,19 @@ function Socios() {
                     <label class="pts-label" for="nome">Sobre nome:</label>
                     <input class="pts-input" type="text" id="nome" name="nome" required placeholder="Garcia Monteiro"/>
                     <label class="pts-label" for="numero">WhatsApp:</label>
-                    <input class="pts-input" type="text" id="numero" name="numero" required placeholder="(xx)xxxxx-xxxx"/>
+                    <input class="pts-input" type="text" id="numero" name="numero" required placeholder="Digite seu número com DDD: (xx) xxxxx-xxxx"/>
                     <label class="pts-label" for="email">E-mail:</label>
-                    <input class="pts-input" type="text" id="email" name="email" required placeholder="Maria@exemplo.com"/>
+                    <input class="pts-input" type="text" id="email" name="email" required placeholder="exemplo@seudominio.com"/>
                     <label class="pts-label" for="email">Confirmação E-mail:</label>
-                    <input class="pts-input" type="text" id="email" name="email" required placeholder="Maria@exemplo.com"/>
+                    <input class="pts-input" type="text" id="email" name="email" required placeholder="exemplo@seudominio.com"/>
                     
                     <div class="pts-divPts">
-                        <button type="submit" class="pts-btn">Enviar</button>
+                        <button type="submit" class="pts-btn">Quero me tornar socio</button>
                     </div>
             </form>
+            
         </div>
+        <div><div><h2>Como agradecimento você recebe notícias, fotos e vídeos mensais sobre a ONG.</h2></div></div>
     </>
   );
 }
