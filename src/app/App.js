@@ -13,6 +13,8 @@ import PrivateRoute from "../components/Auth";
 import Socios from "../pages/Socios";
 import Vakinha from "../pages/Vakinha";
 import Apadrinhamento from "../pages/Apadrinhamento";
+import Adota from "../pages/Adota"
+import Localizacao from "../pages/Localizacao"
  
 function App() {
  
@@ -36,6 +38,8 @@ function App() {
             <Route path="/socios" element={<Socios />} />
             <Route path="/vakinha" element={<Vakinha />} />
             <Route path="/apadrinhamento" element={<Apadrinhamento />} />
+            <Route path="/Adota" element={<Adota />} />
+            <Route path="/Localizacao" element={<Localizacao />} />
           </Routes>
         </main>
         <Footer />
