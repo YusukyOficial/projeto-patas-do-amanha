@@ -1,4 +1,5 @@
 import './Style.css';
+import img from './img/img-apadrinhamento.jpg'
 
 function Apadrinhamento() {
   return (
@@ -22,20 +23,38 @@ function Apadrinhamento() {
                     
                     </div>
                 <div className='img'>
-                    <img src='' alt="img-Dog" />
+                    <img src={img} alt="img-Dog" className='imgDog' />
                 </div>
             </div>
             <div className='Cadastro'>
-                <h2 className='Text-cadastro'>Questionário</h2>
+                <h2 className='Text-cadastro'>
+                    Formulário de adoção
+                </h2>
                 <form>
                     <input type="text" placeholder="Nome completo:" required />
                     <input type="text" placeholder="CPF:" required />
                     <input type="email" placeholder="E-mail:" required />
                     <input type="tel" placeholder="Telefone:" required />
                     <textarea className='TextArea' placeholder='Conte-nos sobre seu interesse em adotar e seu ambiente familiar'></textarea>
-                    <button type="submit">Enviar Cadastro</button>
+
                 </form>
+
+                <br></br>
+
+                <label className="pts-check">
+                    <input 
+                        type='checkbox' 
+                        id='confirmacao' 
+                        required
+                        className="pts-check-input" 
+                    />
+                    <span className="pts-check-text">Eu confirmo que os dados acima estão corretos</span>
+                </label> <br/>
+            
+                <button type="submit" className='buttonForm'>Enviar Cadastro</button>
+
             </div>
+
             <h4 className='Frase-questionário '>Irremos te mandar uma mensagem o mais rapido possivel !</h4>
 
             
