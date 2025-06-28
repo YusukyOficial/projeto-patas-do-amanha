@@ -11,6 +11,11 @@ import Painel from "../pages/Painel";
 import Login from "../pages/Login";
 import PrivateRoute from "../components/Auth";
 import Socios from "../pages/Socios";
+import Vakinha from "../pages/Vakinha";
+import Apadrinhamento from "../pages/Apadrinhamento";
+import Adota from "../pages/Adota"
+import Localizacao from "../pages/Localizacao"
+import Doacao from "../pages/Doacao"
  
 function App() {
  
@@ -32,6 +37,11 @@ function App() {
             } />
             <Route path="/login" element={<Login />} />
             <Route path="/socios" element={<Socios />} />
+            <Route path="/vakinha" element={<Vakinha />} />
+            <Route path="/apadrinhamento" element={<Apadrinhamento />} />
+            <Route path="/Adota" element={<Adota />} />
+            <Route path="/Localizacao" element={<Localizacao />} />
+            <Route path="/Doacao" element={<Doacao />} />
           </Routes>
         </main>
         <Footer />
