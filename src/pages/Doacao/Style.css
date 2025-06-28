@@ -1,0 +1,179 @@
+/* Importa a fonte usada no design (opcional, mas recomendado) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+.doacao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f0f2f5; /* Cor de fundo suave */
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+}
+
+.doacao-header {
+  text-align: center;
+  max-width: 800px;
+  margin-bottom: 40px;
+}
+
+.doacao-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.doacao-header p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.donation-card {
+  background-color: #2F4F4F; /* Verde escuro/Azulado */
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donation-card.large {
+  /* Ocupa duas colunas em telas maiores */
+  grid-column: span 1; 
+}
+/* Media query para telas menores onde o card grande não deve ocupar 2 colunas */
+@media (max-width: 935px) {
+  .donation-card.large {
+    grid-column: span 1;
+  }
+}
+
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.donation-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.donation-card p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  flex-grow: 1; 
+}
+
+.payment-section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 50px;
+  flex-wrap: wrap; 
+}
+
+.payment-method {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.payment-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.payment-title h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.payment-icon-wrapper {
+  color: white;
+  font-size: 1.5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pix-icon-bg {
+  background-color: #32BCAD;
+}
+
+.paypal-icon-bg {
+  background-color: #0070BA;
+}
+
+.payment-method p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.qr-code {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 15px;
+}
+
+.payment-method span {
+  font-weight: 600;
+  color: #444;
+}
+
+.payment-method .small-text {
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.paypal-button {
+  background-color: #0070BA;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  max-width: 250px;
+}
+
+.paypal-button:hover {
+  background-color: #005a9a;
+}
