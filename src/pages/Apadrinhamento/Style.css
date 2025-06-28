@@ -64,9 +64,15 @@
 
 /* Local da imagem */
 .img {
-    padding: 20%;
-    width: 20%;
-    height: 3px;
+    padding: 8%;
+    width: 100%;
+
+}
+
+.imgDog{
+    width: 242px;
+    height: 242px;
+    border-radius: 200px;
 }
 
 /* ===== ESTILOS DO FORMULÁRIO DE CADASTRO ===== */
@@ -114,4 +120,38 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+/*  Botão formulario */
+
+.buttonForm {
+    background-color: var(--primary-color);
+    gap: 2px;
+    font-size: 20px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 18px;
+
+}
+
+/*  Box de confirmação  */
+
+.pts-check{
+
+    display: flex;
+    align-items: center;
+    min-width: 80%;
+    height: 5%;
+
+}
+
+.pts-check-text{
+    min-width: 900px;
+}
+
+.pts-check-input{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    height: 15px;
 }
