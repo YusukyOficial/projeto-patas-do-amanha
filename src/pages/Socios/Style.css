@@ -107,8 +107,23 @@
   
   .pts-texto{
     margin-top: 20px;
+    padding: 10px;
     
 
   }
+  .pts-check {
+    display: flex;
+    gap: 8px; /* Espaço entre checkbox e texto */
+    margin-top: 20px;
+  }
+  
+  .texto-label {
+    margin-top: 6px; /* Move o texto mais para baixo */
+  }
+
+  
+ 
+
+ 
   
   

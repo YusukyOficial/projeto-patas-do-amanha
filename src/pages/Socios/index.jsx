@@ -1,6 +1,13 @@
 import './Style.css';
 
+import ImagemSocio from './img/imgpts.jpg'
+
+
 function Socios() {
+
+
+   
+     
   return (
     <>
       <div class="pts-container">
@@ -16,19 +23,23 @@ function Socios() {
                 mensal, você garante dignidade e esperança para quem não pode pedir por ajuda.
                 Seja a voz de quem não tem voz.
             </h2>
-        </div>
+         </div>
+        
+
+        
          <section class="pts-socio">
             <div class="pts-socio">
                 <h1>Junte-se ao Time</h1>
                 <h2>É só preencher o formulário que nossos voluntários entrarão em contato com você.</h2>
                 
             </div>
+            <img src={ImagemSocio} alt="" />
         </section>
         <div class="pts-form">
             <form class="pts-cadastro">
                     <label class="pts-label" for="nome">Nome:</label>
                     <input class="pts-input" type="text" id="nome" name="nome" required placeholder="Maria"/>
-                    <label class="pts-label" for="nome">Sobre nome:</label>
+                    <label class="pts-label" for="nome">Ultimo Nome:</label>
                     <input class="pts-input" type="text" id="nome" name="nome" required placeholder="Garcia Monteiro"/>
                     <label class="pts-label" for="numero">WhatsApp:</label>
                     <input class="pts-input" type="text" id="numero" name="numero" required placeholder="Digite seu número com DDD: (xx) xxxxx-xxxx"/>
@@ -40,12 +51,23 @@ function Socios() {
                     <div class="pts-divPts">
                         <button type="submit" class="pts-btn">Quero me tornar socio</button>
                     </div>
+
+                   <label class="pts-check">
+                    <input type='checkbox' id= 'confirmacao' required ></input>
+                    Eu confirmo que os dados acima estão corretos
+                   </label>
+
+                    
             </form>
             
         </div>
         <div><div><h2>Como agradecimento você recebe notícias, fotos e vídeos mensais sobre a ONG.</h2></div></div>
-    </>
-  );
+
+
+
+
+    </> 
+  )
 }
 
 export default Socios;
